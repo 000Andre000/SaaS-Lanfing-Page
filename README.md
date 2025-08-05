@@ -1,5 +1,4 @@
 # NeuroScale - SaaS Landing Page
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/000Andre000/SaaS-Lanfing-Page)
 
 This repository contains the source code for NeuroScale, a modern and fully responsive landing page for a fictional SaaS product. It is built with a focus on clean design, engaging animations, and a great user experience. The entire page is structured as a single-scrolling experience with a parallax-style background effect.
 
