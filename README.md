@@ -85,4 +85,4 @@ src/
 ├── App.tsx           # Main application component, renders ParallaxScroll
 ├── main.tsx          # Application entry point
 ├── parallax.tsx      # Core layout component managing the parallax effect and sections
-└── index.css         # Global styles and Tailwind directives   
+└── index.css         # Global styles and Tailwind directives
