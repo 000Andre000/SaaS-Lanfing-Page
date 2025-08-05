@@ -115,7 +115,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* <div>
+            <div>
               <h3 className="font-semibold mb-4">Resources</h3>
               <ul className="space-y-3">
                 {footerLinks.resources.map((link, index) => (
@@ -126,9 +126,9 @@ export default function Footer() {
                   </li>
                 ))}
               </ul>
-            </div> */}
+            </div>
 
-            {/* <div>
+            <div>
               <h3 className="font-semibold mb-4">Legal</h3>
               <ul className="space-y-3">
                 {footerLinks.legal.map((link, index) => (
@@ -139,7 +139,7 @@ export default function Footer() {
                   </li>
                 ))}
               </ul>
-            </div> */}
+            </div>
           </div>
         </div>
 

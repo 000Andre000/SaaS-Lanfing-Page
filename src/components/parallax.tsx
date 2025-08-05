@@ -32,7 +32,7 @@ export default function ParallaxScroll() {
       {/* <div className="absolute bottom-0 left-0 rotate-180 bg-[linear-gradient(rgba(255,255,255)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255)_1px,transparent_1px)] bg-[size:64px_64px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"></div> */}
 
       {/* Foreground Content (Scrolls) */}
-      <div className="relative z-10 overflow-y-auto max-h-screen">
+      <div className="relative z-10">
         <Header scrollRefs={sectionRefs} />
         <ScrollToTopButton/>
 

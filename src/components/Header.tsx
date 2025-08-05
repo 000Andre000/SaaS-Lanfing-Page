@@ -566,8 +566,6 @@ export default function Header({ scrollRefs }) {
         </div>
       </div>
 
-      {/* Scroll to Top Button */}
-      <ScrollToTopButton />
     </header>
   );
 }
