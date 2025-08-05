@@ -1,0 +1,88 @@
+# NeuroScale - SaaS Landing Page
+[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/000Andre000/SaaS-Lanfing-Page)
+
+This repository contains the source code for NeuroScale, a modern and fully responsive landing page for a fictional SaaS product. It is built with a focus on clean design, engaging animations, and a great user experience. The entire page is structured as a single-scrolling experience with a parallax-style background effect.
+
+## ✨ Features
+
+-   **Modern UI/UX:** A sleek, dark-themed design built with Tailwind CSS, featuring gradients, hover effects, and a fixed parallax background with animated glow elements.
+-   **Fully Responsive:** The layout is optimized for all screen sizes, from mobile devices to desktops.
+-   **Interactive Components:**
+    -   **Dynamic Hero Section:** An eye-catching headline with an animated typing effect to showcase key value propositions.
+    -   **Sticky Header:** A transparent header that becomes opaque on scroll, with smooth-scrolling navigation links.
+    -   **Component-Driven UI:** Features, pricing, and testimonials are built as interactive cards with hover effects and animations.
+    -   **Reusable CTA Component:** A customizable call-to-action block used across different sections.
+-   **Engaging Animations:**
+    -   Scroll-triggered fade-in and slide-up animations for content sections.
+    -   `react-countup` for animated statistics in the testimonials section.
+    -   Custom CSS animations for buttons (`jello-vertical`) and background glow effects.
+-   **Component-Based Architecture:** The project is organized into logical, reusable React components for maintainability and scalability, located in `src/components`.
+-   **Utility Components:** Includes a scroll-to-top button that appears on scroll and a dedicated background glow component for enhanced aesthetics.
+
+## 🛠️ Tech Stack
+
+-   **Framework:** React
+-   **Language:** TypeScript
+-   **Build Tool:** Vite
+-   **Styling:** Tailwind CSS
+-   **Icons:** Lucide React
+-   **Animations:** React CountUp, CSS Keyframes
+-   **Linting:** ESLint
+
+## 🚀 Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+-   Node.js (v18.x or later)
+-   npm or yarn
+
+### Installation
+
+1.  **Clone the repository**
+    ```sh
+    git clone https://github.com/000andre000/saas-lanfing-page.git
+    ```
+
+2.  **Navigate to the project directory**
+    ```sh
+    cd saas-lanfing-page
+    ```
+
+3.  **Install NPM packages**
+    ```sh
+    npm install
+    ```
+
+4.  **Run the development server**
+    ```sh
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173`.
+
+## ⚙️ Available Scripts
+
+The following scripts are available in the `package.json`:
+
+-   `npm run dev`: Starts the development server with Hot Module Replacement (HMR).
+-   `npm run build`: Creates a production-ready build in the `dist/` directory.
+-   `npm run lint`: Runs ESLint to check for code quality and style issues.
+-   `npm run preview`: Serves the production build locally to preview it before deployment.
+
+## 📂 Project Structure
+
+The main application code is located in the `src/` directory, which is organized to separate concerns and promote reusability.
+
+```
+src/
+├── components/
+│   ├── CTA/          # Call-to-action components
+│   ├── buttons/      # Reusable button components
+│   ├── cards/        # Card components (Feature, Pricing, Testimonial)
+│   ├── grids/        # Grid layout components for features
+│   └── utility/      # Utility components (Background, CountUp)
+├── App.tsx           # Main application component, renders ParallaxScroll
+├── main.tsx          # Application entry point
+├── parallax.tsx      # Core layout component managing the parallax effect and sections
+└── index.css         # Global styles and Tailwind directives   

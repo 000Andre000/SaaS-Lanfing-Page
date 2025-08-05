@@ -13,16 +13,14 @@ const footerLinks = {
   product: [
     { name: 'Features', href: '#features' },
     { name: 'Pricing', href: '#pricing' },
-    { name: 'API Documentation', href: '#' },
-    { name: 'Integrations', href: '#' },
-    { name: 'Changelog', href: '#' }
+    { name: 'API Documentation', href: '#hero' },
+    { name: 'Integrations', href: '#hero' },
+    { name: 'Changelog', href: '#hero' }
   ],
   company: [
-    { name: 'About Us', href: '#' },
-    { name: 'Careers', href: '#' },
-    { name: 'Press Kit', href: '#' },
+    { name: 'About Us', href: '#hero' },
+    { name: 'Careers', href: '#hero' },
     { name: 'Contact', href: '#contact' },
-    { name: 'Blog', href: '#' }
   ],
   resources: [
     { name: 'Help Center', href: '#' },
@@ -117,7 +115,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div>
+            {/* <div>
               <h3 className="font-semibold mb-4">Resources</h3>
               <ul className="space-y-3">
                 {footerLinks.resources.map((link, index) => (
@@ -128,9 +126,9 @@ export default function Footer() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
 
-            <div>
+            {/* <div>
               <h3 className="font-semibold mb-4">Legal</h3>
               <ul className="space-y-3">
                 {footerLinks.legal.map((link, index) => (
@@ -141,7 +139,7 @@ export default function Footer() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
 
